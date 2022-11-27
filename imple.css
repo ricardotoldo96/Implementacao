@@ -9,7 +9,6 @@ header{
     word-spacing: 15px;
     background-color: #1a212a;
     text-align: center;
-    padding: 20px;
     margin-left: -25px;
     margin-right: -25px;
     margin-top: -40px;
@@ -197,4 +196,38 @@ footer{
 .voltar a{
     color: #5c33cf;
     text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        font-size: 12px;
+        margin: 25px;
+    }
+    header{
+        margin-right: -93px;
+        word-spacing: 0px;
+        display: grid;
+        gap: 10px;
+        font-size: 25px;
+    }
+    
+    .links a{
+        font-size: 20px;
+    }
+    header h2{
+        padding-top: 50px;
+    }
+    .box-quadro{
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .imagem-quadro{
+     width: 200px;
+    border: 10px inset #5c33cf;
+    border-radius: 15px;
+    }
+    p{
+        text-align: center;
+    }
 }
