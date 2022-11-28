@@ -198,6 +198,28 @@ footer{
     text-decoration: none;
 }
 
+.link-plano{
+    padding-bottom: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+.link-plano a{
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 6px 6px 3px yellow;
+    font-size: 25px;
+}
+
+.link-plano :hover{
+    color: yellow;
+    transition: 2s;
+    box-shadow: 10px 10px 10px black;
+    font-size: 40px;
+    transition: 1s;
+    text-shadow: 6px 6px 3px white;
+    font-weight: 500;
+    transition: 1s;
+}
+
 @media screen and (max-width: 480px) {
     body{
         font-size: 12px;
